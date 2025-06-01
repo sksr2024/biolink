@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Sairi Seki - Links</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+            VANTA.BIRDS({
+                el: "#vanta",
+                mouseControls: true,
+                touchControls: true,
+                gyroControls: false,
+                minHeight: 200.00,
+                minWidth: 200.00,
+                scale: 1.00,
+                scaleMobile: 1.00,
+                color1: 0xc6503,
+                color2: 0x2a6d6d,
+                birdSize: 1.10,
+                wingSpan: 21.00,
+                speedLimit: 8.00,
+                cohesion: 80.00,
+                quantity: 4.00,
+                backgroundAlpha: 0.0
+            })
+        });
+    </script>
+</head>
+
+<body>
+    <div id="vanta"></div>
+    <main>
+        <header>
+            <img src="./images/motorcycle.png" id="icon" />
+            <h1>@rider</h1>
+        </header>
+        <ul>
+            <li>
+                <div>
+                    <img src="./images/home.png" alt="Homepage" width="20" />
+                    Official Website
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="./images/yt_icon_rgb.png" alt="YouTube" width="20" />
+                    YouTube
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="./images/logo-black.png" alt="Twitter" width="20" />
+                    Twitter
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="./images/github-mark.png" alt="GitHub" width="20" />
+                    GitHub
+                </div>
+            </li>
+        </ul>
+    </main>
+</body>
+
+</html>
