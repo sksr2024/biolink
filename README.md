@@ -1,1 +1,1 @@
-# This is biolink website. 
+# biolinkのウェブサイトを作ってみました。
